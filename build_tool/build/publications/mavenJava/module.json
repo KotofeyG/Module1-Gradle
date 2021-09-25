@@ -1,0 +1,69 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.kotov",
+    "module": "utils",
+    "version": "1.3.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 16,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "utils-1.3.5.jar",
+          "url": "utils-1.3.5.jar",
+          "size": 525187,
+          "sha512": "283c24f34d5914aea27d194508aef8b79dccd982683b1c8e5a2dbe33b67f653ebbdb26b61f8eb4163e5fc7f03bedab4f2d0b71dbfdaee73829c211f08aee484d",
+          "sha256": "3aa2d05e2aef2e246128a30ebe0b11f14eeeaab6e2bb172e9916f35034b9096f",
+          "sha1": "1e3be1e65b123ce022ee3c1357a4b62e6060449b",
+          "md5": "e40b1a5ef8b932f070388e3a62daba2c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 16,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.commons",
+          "module": "commons-lang3",
+          "version": {
+            "requires": "3.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "utils-1.3.5.jar",
+          "url": "utils-1.3.5.jar",
+          "size": 525187,
+          "sha512": "283c24f34d5914aea27d194508aef8b79dccd982683b1c8e5a2dbe33b67f653ebbdb26b61f8eb4163e5fc7f03bedab4f2d0b71dbfdaee73829c211f08aee484d",
+          "sha256": "3aa2d05e2aef2e246128a30ebe0b11f14eeeaab6e2bb172e9916f35034b9096f",
+          "sha1": "1e3be1e65b123ce022ee3c1357a4b62e6060449b",
+          "md5": "e40b1a5ef8b932f070388e3a62daba2c"
+        }
+      ]
+    }
+  ]
+}

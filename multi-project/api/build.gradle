@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+}
+
+group 'com.kotov'
+version '1.0.0'
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+dependencies {
+    implementation project (':core')
+    implementation 'com.kotov:utils:1.3.5'
+}

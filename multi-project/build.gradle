@@ -1,0 +1,23 @@
+plugins {
+    id 'java'
+}
+
+group 'com.kotov'
+version '1.0.0'
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+dependencies {
+    implementation project (':api')
+}
+
+jar {
+    from {
+        configurations.runtimeClasspath.files.collect {zipTree(it) }
+    }
+    manifest {attributes 'Main-Class': 'com.kotov.main.Main'}
+    duplicatesStrategy (DuplicatesStrategy.EXCLUDE)
+}

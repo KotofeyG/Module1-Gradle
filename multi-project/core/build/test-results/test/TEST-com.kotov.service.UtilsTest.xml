@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kotov.service.UtilsTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-09-25T20:37:57" hostname="KOTOFEY" time="0.071">
+  <properties/>
+  <testcase name="isPositiveNumbersWithNull()" classname="com.kotov.service.UtilsTest" time="0.035"/>
+  <testcase name="isPositiveNumbersWithWrongArgument()" classname="com.kotov.service.UtilsTest" time="0.029"/>
+  <testcase name="isAllPositiveNumbersWithNegativeResult()" classname="com.kotov.service.UtilsTest" time="0.002"/>
+  <testcase name="isAllPositiveNumbersWithPositiveResult()" classname="com.kotov.service.UtilsTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

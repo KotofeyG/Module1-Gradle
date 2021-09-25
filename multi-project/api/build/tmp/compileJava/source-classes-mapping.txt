@@ -1,0 +1,2 @@
+com/kotov/main/Main.java
+ com.kotov.main.Main
